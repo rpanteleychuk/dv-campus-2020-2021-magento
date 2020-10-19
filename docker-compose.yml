@@ -1,5 +1,5 @@
 # SSL certificates for development
-# $ mkcert rostyslav-panteleichuk.local www.rostyslav-panteleichuk.local rostyslav-panteleichuk-additional.local www.rostyslav-panteleichuk-additional.local
+# $ mkcert rostyslav-panteleichuk.local www.rostyslav-panteleichuk.local rostyslav-panteleichuk-additional.local www.rostyslav-panteleichuk-additional.local rostyslav-panteleichuk-dev.local www.rostyslav-panteleichuk-dev.local rostyslav-panteleichuk-additional-dev.local www.rostyslav-panteleichuk-additional-dev.local
 #
 # Start composition:
 # $ docker-compose up -d
