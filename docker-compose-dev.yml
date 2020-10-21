@@ -48,7 +48,7 @@ services:
       - "rostyslav-panteleichuk-dev.local www.rostyslav-panteleichuk-dev.local rostyslav-panteleichuk-additional-dev.local www.rostyslav-panteleichuk-additional-dev.local:127.0.0.1"
       # Required for xDebug on Linux hosts till docker.host.internal is not available by default - https://github.com/docker/libnetwork/pull/2348/files
       - "host.docker.internal:172.17.0.1"
-#    links:
+    links:
 #      - memcached
 #      - redis
       - elasticsearch
