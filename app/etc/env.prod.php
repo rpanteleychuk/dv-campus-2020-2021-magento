@@ -33,7 +33,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'developer',
+    'MAGE_MODE' => 'production',
     'session' => [
         'save' => 'files'
     ],
@@ -76,5 +76,41 @@ return [
     ],
     'install' => [
         'date' => 'Sat, 03 Oct 2020 11:43:52 +0000'
+    ],
+    'system' => [
+        'default' => [
+            'web' => [
+                'unsecure' => [
+                    'base_url' => 'https://rostyslav-panteleichuk.local/',
+                    'base_link_url' => '{{unsecure_base_url}}',
+                    'base_static_url' => 'https://rostyslav-panteleichuk.local/static/',
+                    'base_media_url' => 'https://rostyslav-panteleichuk.local/media/'
+                ],
+                'secure' => [
+                    'base_url' => 'https://rostyslav-panteleichuk.local/',
+                    'base_link_url' => '{{secure_base_url}}',
+                    'base_static_url' => 'https://rostyslav-panteleichuk.local/static/',
+                    'base_media_url' => 'https://rostyslav-panteleichuk.local/media/'
+                ]
+            ]
+        ],
+        'websites' => [
+            'additional_website' => [
+                'web' => [
+                    'unsecure' => [
+                        'base_url' => 'https://rostyslav-panteleichuk-additional.local/',
+                        'base_link_url' => 'https://rostyslav-panteleichuk-additional.local/',
+                        'base_static_url' => 'https://rostyslav-panteleichuk-additional.local/static/',
+                        'base_media_url' => 'https://rostyslav-panteleichuk-additional.local/media/'
+                    ],
+                    'secure' => [
+                        'base_url' => 'https://rostyslav-panteleichuk-additional.local/',
+                        'base_link_url' => 'https://rostyslav-panteleichuk-additional.local/',
+                        'base_static_url' => 'https://rostyslav-panteleichuk-additional.local/static/',
+                        'base_media_url' => 'https://rostyslav-panteleichuk-additional.local/media/'
+                    ]
+                ]
+            ]
+        ]
     ]
 ];
