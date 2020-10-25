@@ -14,9 +14,9 @@ return [
         'connection' => [
             'default' => [
                 'host' => 'mysql',
-                'dbname' => 'rostyslav_panteleichuk_local',
-                'username' => 'rostyslav_panteleichuk_local',
-                'password' => 'rostyslav_panteleichuk_local',
+                'dbname' => 'rostyslav_panteleichuk_build_local',
+                'username' => 'rostyslav_panteleichuk_build_local',
+                'password' => 'qswdefrgthyjukilo',
                 'model' => 'mysql4',
                 'engine' => 'innodb',
                 'initStatements' => 'SET NAMES utf8;',
@@ -72,7 +72,7 @@ return [
         'vertex' => 1
     ],
     'downloadable_domains' => [
-        'rostyslav-panteleichuk.local'
+        'rostyslav-panteleichuk-dev.local'
     ],
     'install' => [
         'date' => 'Sat, 03 Oct 2020 11:43:52 +0000'
@@ -81,33 +81,33 @@ return [
         'default' => [
             'web' => [
                 'unsecure' => [
-                    'base_url' => 'https://rostyslav-panteleichuk.local/',
+                    'base_url' => 'https://rostyslav-panteleichuk-dev.local/',
                     'base_link_url' => '{{unsecure_base_url}}',
-                    'base_static_url' => 'https://rostyslav-panteleichuk.local/static/',
-                    'base_media_url' => 'https://rostyslav-panteleichuk.local/media/'
+                    'base_static_url' => 'https://rostyslav-panteleichuk-dev.local/static/',
+                    'base_media_url' => 'https://rostyslav-panteleichuk-dev.local/media/'
                 ],
                 'secure' => [
-                    'base_url' => 'https://rostyslav-panteleichuk.local/',
+                    'base_url' => 'https://rostyslav-panteleichuk-dev.local/',
                     'base_link_url' => '{{secure_base_url}}',
-                    'base_static_url' => 'https://rostyslav-panteleichuk.local/static/',
-                    'base_media_url' => 'https://rostyslav-panteleichuk.local/media/'
-                ]
-            ]
+                    'base_static_url' => 'https://rostyslav-panteleichuk-dev.local/static/',
+                    'base_media_url' => 'https://rostyslav-panteleichuk-dev.local/media/'
+                ],
+            ],
         ],
         'websites' => [
             'additional_website' => [
                 'web' => [
                     'unsecure' => [
-                        'base_url' => 'https://rostyslav-panteleichuk-additional.local/',
-                        'base_link_url' => 'https://rostyslav-panteleichuk-additional.local/',
-                        'base_static_url' => 'https://rostyslav-panteleichuk-additional.local/static/',
-                        'base_media_url' => 'https://rostyslav-panteleichuk-additional.local/media/'
+                        'base_url' => 'https://rostyslav-panteleichuk-additional-dev.local/',
+                        'base_link_url' => 'https://rostyslav-panteleichuk-additional-dev.local/',
+                        'base_static_url' => 'https://rostyslav-panteleichuk-additional-dev.local/static/',
+                        'base_media_url' => 'https://rostyslav-panteleichuk-additional-dev.local/media/'
                     ],
                     'secure' => [
-                        'base_url' => 'https://rostyslav-panteleichuk-additional.local/',
-                        'base_link_url' => 'https://rostyslav-panteleichuk-additional.local/',
-                        'base_static_url' => 'https://rostyslav-panteleichuk-additional.local/static/',
-                        'base_media_url' => 'https://rostyslav-panteleichuk-additional.local/media/'
+                        'base_url' => 'https://rostyslav-panteleichuk-additional-dev.local/',
+                        'base_link_url' => 'https://rostyslav-panteleichuk-additional-dev.local/',
+                        'base_static_url' => 'https://rostyslav-panteleichuk-additional-dev.local/static/',
+                        'base_media_url' => 'https://rostyslav-panteleichuk-additional-dev.local/media/'
                     ]
                 ]
             ]
