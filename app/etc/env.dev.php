@@ -29,11 +29,11 @@ return [
     ],
     'resource' => [
         'default_setup' => [
-            'connection' => 'default'
+            'connection' => 'production'
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'production',
+    'MAGE_MODE' => 'default',
     'session' => [
         'save' => 'files'
     ],
