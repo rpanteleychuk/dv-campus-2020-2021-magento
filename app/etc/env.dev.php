@@ -29,7 +29,7 @@ return [
     ],
     'resource' => [
         'default_setup' => [
-            'connection' => 'production'
+            'connection' => 'default'
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
