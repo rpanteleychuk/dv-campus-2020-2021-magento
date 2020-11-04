@@ -33,7 +33,7 @@ return [
         ]
     ],
     'x-frame-options' => 'SAMEORIGIN',
-    'MAGE_MODE' => 'production',
+    'MAGE_MODE' => 'default',
     'session' => [
         'save' => 'files'
     ],
@@ -91,8 +91,8 @@ return [
                     'base_link_url' => '{{secure_base_url}}',
                     'base_static_url' => 'https://rostyslav-panteleichuk-dev.local/static/',
                     'base_media_url' => 'https://rostyslav-panteleichuk-dev.local/media/'
-                ],
-            ],
+                ]
+            ]
         ],
         'websites' => [
             'additional_website' => [
