@@ -1,5 +1,6 @@
 /**
  * grunt clean:prostik_luma_en_us && grunt exec:prostik_luma_en_us && grunt less:prostik_luma_en_us && grunt watch
+ * grunt exec:prostik_luma_en_us && grunt less:prostik_luma_en_us && grunt watch
  */
 
 module.exports = {
