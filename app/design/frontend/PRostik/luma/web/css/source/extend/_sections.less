@@ -1,0 +1,27 @@
+//  Current tab
+@tab-control__background-color: @color-blue3;
+@tab-control__color: @color-white;
+
+@tab-control__hover__background-color: @color-sky-blue1;
+@tab-control__hover__color: @color-white;
+
+@tab-control__active__background-color: @color-sky-blue1;
+@tab-control__active__color: @color-white;
+
+& when (@media-common = true) {
+
+    .product.info.detailed {
+        font-weight: @font-weight__bold;
+        color: @color-white;
+    }
+
+    .product.data.items > .item.title.active > .switch {
+        font-weight: @font-weight__bold;
+    }
+
+    .data.switch .counter {
+        color: @color-white;
+    }
+
+}
+
