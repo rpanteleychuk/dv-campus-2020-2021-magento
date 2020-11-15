@@ -2,5 +2,13 @@
 <page layout="1column" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
     <body>
         <move element="product.info.extrahint" destination="page.main.title" as="new_alias" after="-"/>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template"
+                   name="notice.product.block.custom"
+                   template="PRostik_Catalog::product/view/block_notice.phtml"
+                   before="product.info.details"
+            >
+            </block>
+        </referenceContainer>
     </body>
 </page>
