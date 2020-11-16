@@ -1,0 +1,30 @@
+//  Current tab
+@tab-control__background-color: @color-blue3;
+@tab-control__color: @color-white;
+@tab-control__hover__background-color: @color-sky-blue1;
+@tab-control__hover__color: @color-white;
+@tab-control__active__background-color: @color-sky-blue1;
+@tab-control__active__color: @color-white;
+@tab-content__background-color: @color-white;
+
+@accordion-control__color: @color-white;
+@accordion-content__background-color: @color-white;
+@accordion-control__active__background-color: @tab-control__active__background-color;
+@accordion-control__active__color: @color-white;
+@accordion-control__background-color: @tab-control__background-color;
+
+& when (@media-common = true) {
+
+    .product.data.items > .item.title.active > .switch {
+        font-weight: @font-weight__bold;
+    }
+
+    .product.data.items .item.title a:after {
+        color: @color-white;
+    }
+
+    .data.switch .counter {
+        color: @color-white;
+    }
+
+}
