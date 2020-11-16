@@ -4,7 +4,7 @@
         <referenceContainer name="page.wrapper">
             <block class="Magento\Framework\View\Element\Template"
                    name="notice.info.block.custom"
-                   template="PRostik_CMS::product/view/block_notice.phtml"
+                   template="PRostik_CMS::block_notice.phtml"
                    before="-"
             >
             </block>
