@@ -1,7 +1,9 @@
+<?php /** @var  $block */ ?>
+<?php /** @var \Magento\Framework\Escaper $escaper */ ?>
 <div class="message-warning-product-custom">
     <div class="message-warning warning message">
         <div>
-            This is a demo product. You can add them to cart and place order only to test the Magento capabilities.
+            <?= $escaper->escapehtml(__('This is a demo product. You can add them to cart and place order only to test the Magento capabilities.')) ?>
         </div>
     </div>
 </div>
