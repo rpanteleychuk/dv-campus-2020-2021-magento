@@ -95,6 +95,13 @@ return [
             ]
         ],
         'websites' => [
+            'base' => [
+                'general' => [
+                    'locale' => [
+                        'code' => 'uk_UA'
+                    ]
+                ]
+            ],
             'additional_website' => [
                 'web' => [
                     'unsecure' => [
