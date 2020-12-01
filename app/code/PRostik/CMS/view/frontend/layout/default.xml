@@ -1,0 +1,16 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="page.wrapper">
+            <container name="top.warning.container" htmlTag="div" htmlClass="notices-wrapper-custom" before="-">
+                <container name="top.warning.wrapper" htmlTag="div" htmlClass="message-warning warning message">
+                    <block class="Magento\Cms\Block\Block" name="top.warning.banner">
+                        <arguments>
+                            <argument name="block_id" xsi:type="string">top-warning-banner</argument>
+                        </arguments>
+                    </block>
+                </container>
+            </container>
+        </referenceContainer>
+    </body>
+</page>
