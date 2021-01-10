@@ -1,0 +1,7 @@
+<?php /** @var \Magento\Catalog\Block\Product\View $block */ ?>
+<?php /** @var \Magento\Framework\Escaper $escaper */ ?>
+<p><?= $escaper->escapeHtml(__('Regular Customers get a discount when buying multiple items. Only registered customers will get discounts.')) ?></p>
+<?php /** @TODO: only logged in customers must be able to make a request. Show login form on button click */ ?>
+<button class="action primary" data-mage-init='{"pRostikPersonalDiscountButton": {}}'>
+    <span><?= $escaper->escapeHtml(__('Participate in the program')) ?></span>
+</button>

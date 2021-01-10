@@ -329,6 +329,7 @@ return [
         'Klarna_KpGraphQl' => 1,
         'PRostik_CMS' => 1,
         'PRostik_ControllerDemo' => 1,
+        'PRostik_RegularCustomer' => 1,
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
