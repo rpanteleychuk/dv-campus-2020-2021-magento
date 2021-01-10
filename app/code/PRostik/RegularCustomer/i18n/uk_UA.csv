@@ -1,0 +1,11 @@
+"You request for product %1 was accepted!","Ваш запит для %1 надіслано!"
+"Regular Customers get a discount when buying multiple items. Only registered customers will get discounts.","Постійні клієнти отримують знижку при покупці декількох предметів. Знижки отримують лише зареєстровані клієнти."
+"Participate in the program","Візьміть участь у програмі"
+"Discount Request","Запит на знижку"
+Name,Ім'я
+Email,Електронна адреса
+"Request a Discount","Запит на знижку"
+Success,Відправлено
+Error,Помилка
+"Your request can't be sent. Please, contact us if you see this message.","Ваш запит не може бути відправлено. Будь ласка, зв'яжіться з нами якщо ви бачите це повідомлення."
+"Loyalty program for Regular Customers","Програма лояльності для постійних клієнтів"
