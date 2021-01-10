@@ -3,5 +3,5 @@
 <p><?= $escaper->escapeHtml(__('Full name: %1 %2', $block->getFirstName(), $block->getLastName())) ?></p>
 <p> <?= $escaper->escapeHtml(__('Repository URL: ')) ?>
     <a target="_blank"
-       href="<?= $escaper->escapeUrl($block->getRepositoryUrl()) ?>"><?= ($block->getRepositoryUrl()) ?></a>
+       href="<?= $escaper->escapeUrl($block->getRepositoryUrl()) ?>"><?= $escaper->escapeUrl($block->getRepositoryUrl()) ?></a>
 </p>
