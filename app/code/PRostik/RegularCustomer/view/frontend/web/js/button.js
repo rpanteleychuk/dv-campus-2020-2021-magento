@@ -4,7 +4,7 @@ define([
 ], function ($) {
     'use strict';
 
-    $.widget('pRostik.personalDiscountButton', {
+    $.widget('pRostik.regularCustomerButton', {
         /**
          * Constructor
          * @private
@@ -16,9 +16,9 @@ define([
          * Generate event to open the form
          */
         openRequestForm: function () {
-            $(document).trigger('prostik_personal_discount_form_open');
+            $(document).trigger('prostik_regular_customer_form_open');
         }
     });
 
-    return $.pRostik.personalDiscountButton;
+    return $.pRostik.regularCustomerButton;
 });

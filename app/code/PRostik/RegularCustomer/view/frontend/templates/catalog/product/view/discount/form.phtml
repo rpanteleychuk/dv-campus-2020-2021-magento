@@ -3,10 +3,10 @@
 <div style="display: none;">
     <form class="form"
           action="javascript:void(0);"
-          id="prostik-personal-discount-form"
+          id="prostik-regular-customer-form"
           method="post"
-          data-mage-init='{"pRostikPersonalDiscountForm":{
-              "action": "<?= $escaper->escapeJs($block->getUrl('prostik_personal_discount/index/request')) ?>",
+          data-mage-init='{"pRostikRegularCustomerForm":{
+              "action": "<?= $escaper->escapeJs($block->getUrl('prostik_regular_customer/index/request')) ?>",
               "productName": "<?= $escaper->escapeJs($block->getProduct()->getName()) ?>"
           }}'
           onsubmit="return false;"

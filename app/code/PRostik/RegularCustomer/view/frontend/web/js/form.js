@@ -6,7 +6,7 @@ define([
 ], function ($, alert) {
     'use strict';
 
-    $.widget('pRostik.personalDiscountForm', {
+    $.widget('pRostik.regularCustomerForm', {
         options: {
             action: '',
             productName: ''
@@ -20,8 +20,8 @@ define([
                 buttons: []
             });
 
-            $(document).on('prostik_personal_discount_form_open', this.openModal.bind(this));
-            $(this.element).on('submit.prostik_personal_discount_form', this.sendRequest.bind(this));
+            $(document).on('prostik_regular_customer_form_open', this.openModal.bind(this));
+            $(this.element).on('submit.prostik_regular_customer_form', this.sendRequest.bind(this));
         },
 
         /**
@@ -99,5 +99,5 @@ define([
         }
     });
 
-    return $.pRostik.personalDiscountForm;
+    return $.pRostik.regularCustomerForm;
 });

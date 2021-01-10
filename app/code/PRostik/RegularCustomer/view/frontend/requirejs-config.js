@@ -1,8 +1,8 @@
-let config = {
+var config = {
     map: {
         '*': {
-            pRostikPersonalDiscountButton: 'PRostik_RegularCustomer/js/button',
-            pRostikPersonalDiscountForm: 'PRostik_RegularCustomer/js/form'
+            pRostikRegularCustomerButton: 'PRostik_RegularCustomer/js/button',
+            pRostikRegularCustomerForm: 'PRostik_RegularCustomer/js/form'
         }
     }
 };

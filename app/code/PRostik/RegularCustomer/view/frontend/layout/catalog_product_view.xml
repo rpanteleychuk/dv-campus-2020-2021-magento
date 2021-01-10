@@ -3,7 +3,7 @@
     <body>
         <referenceBlock name="product.info.details">
             <block class="Magento\Framework\View\Element\Text\ListText"
-                   name="prostik.personal.discount.tab"
+                   name="prostik.regular.customer.tab"
                    group="detailed_info"
             >
                 <arguments>
@@ -11,12 +11,12 @@
                     <argument translate="true" name="title" xsi:type="string">Loyalty program for Regular Customers</argument>
                 </arguments>
                 <block class="Magento\Framework\View\Element\Template"
-                       name="prostik.personal.discount.button"
+                       name="prostik.regular.customer.button"
                        template="PRostik_RegularCustomer::catalog/product/view/discount/button.phtml"
                        group="detailed_info"
                 />
                 <block class="Magento\Catalog\Block\Product\View"
-                       name="dv.campus.personal.discount.form"
+                       name="prostik.regular.customer.form"
                        template="PRostik_RegularCustomer::catalog/product/view/discount/form.phtml"
                        group="detailed_info"
                 />
